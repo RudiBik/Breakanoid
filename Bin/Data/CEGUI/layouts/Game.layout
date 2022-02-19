@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.22852,0},{0.912759,0}}" />
+        <Window Type="Vanilla/FrameWindow" Name="Root/Frame" >
+            <Property Name="Alpha" Value="0.4" />
+            <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+            <Property Name="TitlebarEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.819482,0},{0.0114955,0},{0.991084,0},{0.0141452,0}}" />
+            <Property Name="CloseButtonEnabled" Value="False" />
+            <Window Type="Vanilla/StaticText" Name="Root/Frame/FrameRate" >
+                <Property Name="Font" Value="Arial-10" />
+                <Property Name="Text" >FrameRate: 0x
+</Property>
+                <Property Name="HorzExtent" Value="75" />
+                <Property Name="VertExtent" Value="13.749" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0041268,0},{-0.150004,0},{0.756359,0},{0.390693,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="Vanilla/StaticText" Name="Root/Frame/Stack1" >
+                <Property Name="Font" Value="Arial-10" />
+                <Property Name="Text" >Stack1Free: 0x
+</Property>
+                <Property Name="HorzExtent" Value="77" />
+                <Property Name="VertExtent" Value="13.749" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00412,0},{0.220465,0},{0.697379,0},{0.551861,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

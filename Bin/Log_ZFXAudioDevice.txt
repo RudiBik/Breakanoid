@@ -1,0 +1,5 @@
+[ZFXDADevice]: online (waiting for initialization call)
+[ZFXDADevice]: calling initialization
+[ZFXDADevice]: initialized (online and ready)
+[ZFXDADevice]: shutting down DirectAudio
+[ZFXDADevice]: offline (ok)

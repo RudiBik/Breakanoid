@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Actor">
+      <UniqueIdentifier>{f36ef987-4753-4534-85a9-5fc54ded70fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EventManager">
+      <UniqueIdentifier>{baf9effc-c521-4c1e-9fd6-7456a44c2e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainLoop">
+      <UniqueIdentifier>{ba9a5a5e-cb13-4255-8dab-bc93d620e5e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{97d1515e-1807-40ed-b903-581c5d82d0d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResourceCache">
+      <UniqueIdentifier>{49bdd3d1-46c7-4423-920f-73a1f9f88e56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Src\Engine.cpp" />
+    <ClCompile Include="..\Src\EngineStd.cpp" />
+    <ClCompile Include="..\Src\GameApp.cpp" />
+    <ClCompile Include="..\Src\MovementController.cpp" />
+    <ClCompile Include="..\Src\TextRenderer.cpp" />
+    <ClCompile Include="..\Src\Actors\Actors.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\EventManager\EventManager.cpp">
+      <Filter>EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\EventManager\EventManagerImpl.cpp">
+      <Filter>EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\EventManager\Events.cpp">
+      <Filter>EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\EventManager\StackAllocator.cpp">
+      <Filter>EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\MainLoop\CPU_Speed.cpp">
+      <Filter>MainLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\MainLoop\Initialization.cpp">
+      <Filter>MainLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Math\Clock.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Math\CRandom.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Math\Handle.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Math\HashedString.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ResourceCache\ResCache.cpp">
+      <Filter>ResourceCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\ResourceCache\ZipFile.cpp">
+      <Filter>ResourceCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\MainLoop\CProcess.cpp">
+      <Filter>MainLoop</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Src\EngineStd.h" />
+    <ClInclude Include="..\Src\GameApp.h" />
+    <ClInclude Include="..\Src\Interfaces.h" />
+    <ClInclude Include="..\Src\MovementController.h" />
+    <ClInclude Include="..\Src\TextRenderer.h" />
+    <ClInclude Include="..\Src\ZFXAudio.h" />
+    <ClInclude Include="..\Src\ZFXAudioDevice.h" />
+    <ClInclude Include="..\Src\Actors\Actors.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\EventManager\EventManager.h">
+      <Filter>EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\EventManager\EventManagerImpl.h">
+      <Filter>EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\EventManager\Events.h">
+      <Filter>EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\EventManager\StackAllocator.h">
+      <Filter>EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\MainLoop\CProcess.h">
+      <Filter>MainLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\MainLoop\Initialization.h">
+      <Filter>MainLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Math\Clock.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Math\CRandom.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Math\Handle.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Math\HashedString.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Math\TSingleton.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ResourceCache\ResCache.h">
+      <Filter>ResourceCache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\ResourceCache\ZipFile.h">
+      <Filter>ResourceCache</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

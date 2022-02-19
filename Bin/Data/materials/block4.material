@@ -1,0 +1,17 @@
+
+material Block4
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 0.784314 0.156863 1
+			diffuse 1 0.784314 0.156863 1
+			specular 0.898039 0.898039 0.898039 1 10
+		}
+
+	}
+
+}
+
+

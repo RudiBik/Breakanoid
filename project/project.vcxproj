@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Src\Actors\Actors.cpp" />
+    <ClCompile Include="..\Src\Engine.cpp" />
+    <ClCompile Include="..\Src\EngineStd.cpp" />
+    <ClCompile Include="..\Src\EventManager\EventManager.cpp" />
+    <ClCompile Include="..\Src\EventManager\EventManagerImpl.cpp" />
+    <ClCompile Include="..\Src\EventManager\Events.cpp" />
+    <ClCompile Include="..\Src\EventManager\StackAllocator.cpp" />
+    <ClCompile Include="..\Src\GameApp.cpp" />
+    <ClCompile Include="..\Src\MainLoop\CProcess.cpp" />
+    <ClCompile Include="..\Src\MainLoop\CPU_Speed.cpp" />
+    <ClCompile Include="..\Src\MainLoop\Initialization.cpp" />
+    <ClCompile Include="..\Src\Math\Clock.cpp" />
+    <ClCompile Include="..\Src\Math\CRandom.cpp" />
+    <ClCompile Include="..\Src\Math\Handle.cpp" />
+    <ClCompile Include="..\Src\Math\HashedString.cpp" />
+    <ClCompile Include="..\Src\MovementController.cpp" />
+    <ClCompile Include="..\Src\ResourceCache\ResCache.cpp" />
+    <ClCompile Include="..\Src\ResourceCache\ZipFile.cpp" />
+    <ClCompile Include="..\Src\TextRenderer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Src\Actors\Actors.h" />
+    <ClInclude Include="..\Src\EngineStd.h" />
+    <ClInclude Include="..\Src\EventManager\EventManager.h" />
+    <ClInclude Include="..\Src\EventManager\EventManagerImpl.h" />
+    <ClInclude Include="..\Src\EventManager\Events.h" />
+    <ClInclude Include="..\Src\EventManager\StackAllocator.h" />
+    <ClInclude Include="..\Src\GameApp.h" />
+    <ClInclude Include="..\Src\Interfaces.h" />
+    <ClInclude Include="..\Src\MainLoop\CProcess.h" />
+    <ClInclude Include="..\Src\MainLoop\Initialization.h" />
+    <ClInclude Include="..\Src\Math\Clock.h" />
+    <ClInclude Include="..\Src\Math\CRandom.h" />
+    <ClInclude Include="..\Src\Math\Handle.h" />
+    <ClInclude Include="..\Src\Math\HashedString.h" />
+    <ClInclude Include="..\Src\Math\TSingleton.h" />
+    <ClInclude Include="..\Src\MovementController.h" />
+    <ClInclude Include="..\Src\ResourceCache\ResCache.h" />
+    <ClInclude Include="..\Src\ResourceCache\ZipFile.h" />
+    <ClInclude Include="..\Src\TextRenderer.h" />
+    <ClInclude Include="..\Src\ZFXAudio.h" />
+    <ClInclude Include="..\Src\ZFXAudioDevice.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0A5239A3-3725-4013-AC17-85C454ACDEF0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>project</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>..\..\..\SDKs\DirectXSDKFeb2010\Include;..\3rdParty\VisualLeakDetector\include;..\3rdParty\OGRE173\include\;..\3rdParty\ois-v1-3\includes;..\3rdParty\CEGUI075\cegui\include;..\Src\LuaPlus;..\3rdParty\OGRE173\boost_1_44;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\..\SDKs\DirectXSDKFeb2010\Lib\x86;..\3rdParty\VisualLeakDetector\lib\Win32;..\Lib;..\3rdParty\OGRE173\lib\debug;..\3rdParty\ois-v1-3\lib;..\3rdParty\CEGUI075\lib;..\3rdParty\OGRE173\boost_1_44\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>..\Lib\$(Configuration)\</OutDir>
+    <TargetName>dengine</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetName>engine</TargetName>
+    <IncludePath>$(IncludePath);..\..\..\SDKs\DirectXSDKAug2007\Include;..\3rdParty\OGRE173\include\;..\3rdParty\ois-v1-3\includes;..\3rdParty\CEGUI075\cegui\include;..\Src\LuaPlus;..\3rdParty\OGRE173\boost_1_44</IncludePath>
+    <LibraryPath>..\..\..\SDKs\DirectXSDKAug2007\Lib\x86;..\Lib\Release;..\3rdParty\OGRE173\lib\Release;..\3rdParty\ois-v1-3\lib;..\3rdParty\CEGUI075\lib;..\3rdParty\OGRE173\boost_1_44\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>..\Lib\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>$(OutDir)dengine.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

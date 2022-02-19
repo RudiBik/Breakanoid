@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>..\3rdParty\VisualLeakDetector\include;..\3rdParty\OGRE173\include\;..\3rdParty\CEGUI075\cegui\include;..\Src\LuaPlus;..\3rdParty\OGRE173\boost_1_44;..\..\..\SDKs\DirectXSDKFeb2010\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LibraryPath>..\3rdParty\VisualLeakDetector\lib\Win32;..\Lib;..\3rdParty\CEGUI075\lib;..\3rdParty\OGRE173\lib\debug;..\3rdParty\OGRE173\boost_1_44\lib;..\..\..\SDKs\DirectXSDKFeb2010\Lib\x86;$(LibraryPath)</LibraryPath>
+    <_PropertySheetDisplayName>EG</_PropertySheetDisplayName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>DEngine.lib;CEGUIBase_d.lib;CEGUIOgreRenderer_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>LIBCD.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/GameCode3/Source/ResourceCache/zlib
+END
+manual.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/GameCode3/Source/ResourceCache/zlib/manual.html
+END
+zlib.lib
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2/trunk/GameCode3/Source/ResourceCache/zlib/zlib.lib
+END
+zconf.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2/trunk/GameCode3/Source/ResourceCache/zlib/zconf.h
+END
+zlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2/trunk/GameCode3/Source/ResourceCache/zlib/zlib.h
+END
+ioapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2/trunk/GameCode3/Source/ResourceCache/zlib/ioapi.h
+END
+zip.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/GameCode3/Source/ResourceCache/zlib/zip.h
+END
+unzip.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2/trunk/GameCode3/Source/ResourceCache/zlib/unzip.h
+END

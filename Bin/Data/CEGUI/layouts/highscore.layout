@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="highscoreRoot" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.99697,0}}" />
+        <Window Type="OgreTray/FrameWindow" Name="highscoreRoot/" >
+            <Property Name="CaptionFont" Value="DejaVuSans-10" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="SizingEnabled" Value="False" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property Name="DragMovingEnabled" Value="False" />
+            <Property Name="CloseButtonEnabled" Value="False" />
+            <Window Type="OgreTray/Button" Name="highscoreRoot/back" >
+                <Property Name="Text" >Back
+</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.0401515,0},{0.842249,0},{0.171781,0},{0.912918,0}}" />
+            </Window>
+        </Window>
+        <Window Type="OgreTray/Listbox" Name="highscoreRoot/frame" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.246023,0},{0.106061,0},{0.742235,0},{0.925758,0}}" />
+            <Window Type="OgreTray/StaticText" Name="highscoreRoot/frame/1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0412216,0},{0.0321626,0},{0.951527,0},{0.115804,0}}" />
+            </Window>
+            <Window Type="OgreTray/StaticText" Name="highscoreRoot/frame/3" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0435117,0},{0.119131,0},{0.953817,0},{0.202773,0}}" />
+            </Window>
+            <Window Type="OgreTray/StaticText" Name="highscoreRoot/frame/2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.041985,0},{0.209797,0},{0.952291,0},{0.293438,0}}" />
+            </Window>
+            <Window Type="OgreTray/StaticText" Name="highscoreRoot/frame/4" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0404583,0},{0.300462,0},{0.950763,0},{0.384104,0}}" />
+            </Window>
+            <Window Type="OgreTray/StaticText" Name="highscoreRoot/frame/5" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0541988,0},{0.391127,0},{0.964503,0},{0.474769,0}}" />
+            </Window>
+            <Window Type="OgreTray/StaticText" Name="highscoreRoot/frame/6" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0477103,0},{0.480124,0},{0.958015,0},{0.563765,0}}" />
+            </Window>
+            <Window Type="OgreTray/StaticText" Name="highscoreRoot/frame/7" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0427485,0},{0.578281,0},{0.953054,0},{0.661923,0}}" />
+            </Window>
+            <Window Type="OgreTray/StaticText" Name="highscoreRoot/frame/8" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0316798,0},{0.674492,0},{0.941985,0},{0.758133,0}}" />
+            </Window>
+            <Window Type="OgreTray/StaticText" Name="highscoreRoot/frame/9" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0454202,0},{0.779944,0},{0.955725,0},{0.863586,0}}" />
+            </Window>
+            <Window Type="OgreTray/StaticText" Name="highscoreRoot/frame/10" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0477104,0},{0.876155,0},{0.958015,0},{0.959797,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

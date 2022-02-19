@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="PRoot" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="Vanilla/FrameWindow" Name="PRoot/Frame" >
+            <Property Name="Alpha" Value="0.6" />
+            <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+            <Property Name="TitlebarEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.375758,0},{0.316667,0},{0.625757,0},{0.566667,0}}" />
+            <Property Name="DragMovingEnabled" Value="False" />
+            <Property Name="CloseButtonEnabled" Value="False" />
+            <Window Type="Vanilla/Button" Name="PRoot/Frame/Con" >
+                <Property Name="Text" Value="Continue" />
+                <Property Name="UnifiedAreaRect" Value="{{0.100757,0},{0.127273,0},{0.884849,0},{0.377273,0}}" />
+            </Window>
+            <Window Type="Vanilla/Button" Name="PRoot/Frame/Ret" >
+                <Property Name="Text" >Return to Menü
+</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.105302,0},{0.534849,0},{0.889395,0},{0.784848,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

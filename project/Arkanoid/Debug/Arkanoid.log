@@ -1,0 +1,12 @@
+﻿Build started 27.02.2018 11:33:43.
+     1>Project "F:\Programmieren\C++\GameEngine+Ogre-2010\project\Arkanoid\Arkanoid.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Arkanoid.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Src\Game\Kurve.cpp ..\..\Src\Game\KurveActors.cpp ..\..\Src\Game\KurveEvents.cpp ..\..\Src\Game\KurveGame.cpp ..\..\Src\Game\KurveProcesses.cpp ..\..\Src\Game\KurveStd.cpp ..\..\Src\Game\KurveView.cpp
+         Kurve.cpp
+     1>Done Building Project "F:\Programmieren\C++\GameEngine+Ogre-2010\project\Arkanoid\Arkanoid.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.79

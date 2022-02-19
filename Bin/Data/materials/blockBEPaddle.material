@@ -1,0 +1,35 @@
+
+material Paddle
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.470588 0.176471 0.137255 1
+			diffuse 0.470588 0.176471 0.137255 1
+			specular 1.24827 1.24827 1.24827 1 17
+		}
+
+	}
+
+}
+
+
+
+material 20-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.984314 1 0.588235 1
+			diffuse 0.984314 1 0.588235 1
+			specular 0 0 0 1 10
+			emissive 0 0.25098 0.0196078 1
+		}
+
+	}
+
+}
+
+

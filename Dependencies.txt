@@ -1,0 +1,9 @@
+Build with:
+-Visual Studio Express 2010
+-DirectX February 2010
+-Ogre 1.7.3
+-CEGUI 0.75
+-LuaPlus
+-OIS 1.3
+-Visual Leak Detector
+-ZFXDA

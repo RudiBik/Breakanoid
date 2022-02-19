@@ -1,0 +1,104 @@
+
+material Ball
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.611765 0.611765 0.611765 1
+			diffuse 0.611765 0.611765 0.611765 1
+			specular 0.898039 0.898039 0.898039 1 20
+		}
+
+	}
+
+}
+
+
+
+material 15-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 1
+			emissive 1 0.972549 0.815686 1
+		}
+
+	}
+
+}
+
+
+
+material 19-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.854902 0.854902 0.854902 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture leaking2.jpg
+				transform 2.4 1.32118e-007 0 -6.60589e-008 -3.17083e-007 1 0 6.60589e-008 0 0 1 0 0 0 0 1
+			}
+		}
+
+	}
+
+}
+
+
+
+material Level1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.862745 0.862745 0.862745 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture concrete.jpg
+				transform 1.7 0 0 0 0 1.7 0 0 0 0 1 0 0 0 0 1
+			}
+		}
+
+	}
+
+}
+
+
+
+material Level2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.827451 0.827451 0.827451 1
+			specular 0 0 0 1 10
+
+			texture_unit
+			{
+				texture leaking.jpg
+				transform 2.3 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1
+			}
+		}
+
+	}
+
+}
+
+
